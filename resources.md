@@ -6,13 +6,15 @@ nav_order: 4
 ---
 
 # 📚 Resources
+
 {:.no_toc}
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -20,40 +22,42 @@ nav_order: 4
 
 In the table below, you can find lecture videos created by Janine Tiefenbruck, who created this course and taught it many times. The lecture videos linked below will generally be pretty similar in content coverage to our lectures, but there are indeed differences in notation and order. You are responsible for everything covered in our lectures, even if something doesn’t appear in the videos below. When in doubt, refer to the main lecture slides posted and ask on Ed.
 
-| **Video** | **Topics** |
-| --- | --- |
-|[Video 1](https://youtu.be/6tP6crJr32U) | learning from data, mean absolute error|  
-|[Video 2](https://youtu.be/ad2S7XnCSVc) | minimizing mean absolute error |
-|[Video 3](https://youtu.be/LYJW_2odH_E) | mean squared error |
-|[Video 4](https://youtu.be/usam2JTOaLg) | empirical risk minimization, general framework, 0-1 loss |
-|[Video 5](https://youtu.be/Syw_PfmWDRg) | UCSD loss |
-|[Video 6](https://youtu.be/F2ImJ3dkkZ8) | gradient descent |
-|[Video 7](https://youtu.be/1TjwPNY2Gzw) | gradient descent demo, convexity |
-|[Video 8](https://youtu.be/NdkDK3Jb6SY) | spread |
-|[Video 9](https://youtu.be/3RiaKo2jGIk) | linear prediction rule |
-|[Video 10](https://youtu.be/Ac1EFASUA9M)| least squares solutions |
-|[Video 11](https://youtu.be/0sWcrJSAUFQ)| regression interpretation |
-|[Video 12](https://youtu.be/bTp4vMu_9N0)| nonlinear trends |
-|[Video 13](https://youtu.be/7k3KtI4NFas)| linear algebra for regression |
-|[Video 14](https://youtu.be/2ebdHtxb4as)| gradient, normal equations |
-|[Video 15](https://youtu.be/uIbnLq6IZLI)| polynomial regression, nonlinear trends |
-|[Video 16](https://youtu.be/tuezO9tiXnE)| multiple regression |
-|[Video 17](https://youtu.be/dDn6iPpbH4E)| k-means clustering |
-|[Video 18](https://youtu.be/UPxe97Wc1gM)| k-means clustering, cost function, practical considerations |
-|[Video 19](https://youtu.be/ikLzykAaLOk)| probability, basic rules |
-|[Video 20](https://youtu.be/qHOG3yc4UzE)| conditional probability |
-|[Video 21](https://youtu.be/-3v6UZ_Cq9k)| probability, random sampling, sequences |
-|[Video 22](https://youtu.be/AfM9akq6PL0)| combinatorics, sequences, sets, permutations, combinations |
-|[Video 23](https://youtu.be/fuaFj7aeg9I)| counting and probability practice |
-|[Video 24](https://youtu.be/I3ZHwf8qWS4)| law of total probability, Bayes' Theorem |
-|[Video 25](https://youtu.be/AUiX4gWWsuE)| independence, conditional independence |
-|[Video 26](https://youtu.be/WLQMoA4ZAus)| naive Bayes |
-|[Video 27](https://youtu.be/4tGtziW901Y)| text classification, spam filter, naive Bayes | 
+| **Video**                                | **Topics**                                                  |
+| ---------------------------------------- | ----------------------------------------------------------- |
+| [Video 1](https://youtu.be/6tP6crJr32U)  | learning from data, mean absolute error                     |
+| [Video 2](https://youtu.be/ad2S7XnCSVc)  | minimizing mean absolute error                              |
+| [Video 3](https://youtu.be/LYJW_2odH_E)  | mean squared error                                          |
+| [Video 4](https://youtu.be/usam2JTOaLg)  | empirical risk minimization, general framework, 0-1 loss    |
+| [Video 5](https://youtu.be/Syw_PfmWDRg)  | UCSD loss                                                   |
+| [Video 6](https://youtu.be/F2ImJ3dkkZ8)  | gradient descent                                            |
+| [Video 7](https://youtu.be/1TjwPNY2Gzw)  | gradient descent demo, convexity                            |
+| [Video 8](https://youtu.be/NdkDK3Jb6SY)  | spread                                                      |
+| [Video 9](https://youtu.be/3RiaKo2jGIk)  | linear prediction rule                                      |
+| [Video 10](https://youtu.be/Ac1EFASUA9M) | least squares solutions                                     |
+| [Video 11](https://youtu.be/0sWcrJSAUFQ) | regression interpretation                                   |
+| [Video 12](https://youtu.be/bTp4vMu_9N0) | nonlinear trends                                            |
+| [Video 13](https://youtu.be/7k3KtI4NFas) | linear algebra for regression                               |
+| [Video 14](https://youtu.be/2ebdHtxb4as) | gradient, normal equations                                  |
+| [Video 15](https://youtu.be/uIbnLq6IZLI) | polynomial regression, nonlinear trends                     |
+| [Video 16](https://youtu.be/tuezO9tiXnE) | multiple regression                                         |
+| [Video 17](https://youtu.be/dDn6iPpbH4E) | k-means clustering                                          |
+| [Video 18](https://youtu.be/UPxe97Wc1gM) | k-means clustering, cost function, practical considerations |
+| [Video 19](https://youtu.be/ikLzykAaLOk) | probability, basic rules                                    |
+| [Video 20](https://youtu.be/qHOG3yc4UzE) | conditional probability                                     |
+| [Video 21](https://youtu.be/-3v6UZ_Cq9k) | probability, random sampling, sequences                     |
+| [Video 22](https://youtu.be/AfM9akq6PL0) | combinatorics, sequences, sets, permutations, combinations  |
+| [Video 23](https://youtu.be/fuaFj7aeg9I) | counting and probability practice                           |
+| [Video 24](https://youtu.be/I3ZHwf8qWS4) | law of total probability, Bayes' Theorem                    |
+| [Video 25](https://youtu.be/AUiX4gWWsuE) | independence, conditional independence                      |
+| [Video 26](https://youtu.be/WLQMoA4ZAus) | naive Bayes                                                 |
+| [Video 27](https://youtu.be/4tGtziW901Y) | text classification, spam filter, naive Bayes               |
 
 ---
 
 ## Course Notes
-The notes for this class were written by Janine Tiefenbruck and Justin Eldridge. These notes cover the material from the first half of the course, but as of Spring 2024, the order of coverage may be different.
+
+The notes for this class were written by Janine Tiefenbruck and Justin Eldridge. These notes cover the material from the first half of the course, but as of Summer 2024, the order of coverage may be different.
+
 - [Chapter 1: Learning via Optimization](../resources/notes/notes_chapter_1.pdf)
 - [Supplement on Spread](../resources/notes/spread.pdf)
 - [Chapter 2: Least Squares Regression](../resources/notes/notes_chapter_2.pdf)
@@ -72,6 +76,8 @@ These resources were created by tutors as part of their Final Project for DSC 95
 - Javier Ponce's [probability guide](https://docs.google.com/presentation/d/1INFkQA6H06NEicGpzEMornQWaAwYb1zUVRPOF9nGSDw/edit?usp=sharing).
 - Charlie Sun's [example midterm notes sheet](https://drive.google.com/file/d/1XRW26AeMzdvOu-LNks-4sso6e1xXcH4b/view?usp=sharing).
 - Candus Shi's [slides](https://docs.google.com/presentation/d/1_SvEkGPlfel_NfSg4w-M5HvEa8UdO24l9FW4VokmuaQ/edit?usp=sharing) and [video on the importance of math as a data scientist](https://drive.google.com/file/d/1dMej66xoUzj5g10XvOn4i4fq5Ri1-HQ3/view?usp=sharing)
+- Varun Pabreja's [video on solving combinatorics problems, including a fun application](https://www.youtube.com/watch?v=8PndRAcRC1Q).
+- Utkarsh Lohia's [video on the Naïve Bayes classifier](https://www.youtube.com/watch?si=Bl5_lf-TyRHb8KI-&v=3yCu_l2uBAw&feature=youtu.be).
 
 ---
 
@@ -94,7 +100,9 @@ Unlike the first half of the course, where we had course notes written specifica
 - [Khan Academy: Counting, Permutations, and Combinations](https://www.khanacademy.org/math/statistics-probability/counting-permutations-and-combinations#combinatorics-probability): Khan Academy has a good unit called Counting, Permutations, and Combinations that should be pretty helpful for the combinatorics we are learning in this class. A useful aspect of it is the practice questions that combine permutations and combinations. Most students find that the hardest part of these counting problems is knowing when to use permutations and when to use combinations. These practice questions have them mixed together, so you really get practice learning which is the right technique to apply to which situation.
 
 ### Probability Roadmap
+
 Janine Tiefenbruck wrote a "Probability Roadmap" that aims to guide students through the process of solving probability problems. It comes in three versions:
+
 - [Examples](../resources/probability/Probability_Roadmap_With_Examples.pdf): This document consists of strategies followed by example problems that employ those strategies. If you're looking to gain additional practice, start here.
 - [Solutions](../resources/probability/Probability_Roadmap_With_Solutions.pdf): This document contains solutions and explanations for all of the example problems in the first document. After you've attempted the problems on your own, read through this full document. Even if you've solved all the questions, you're likely to learn how to do some problems in new ways.
 - [Summary](../resources/probability/Probability_Roadmap_Summary.pdf): This document is a concise summary and contains only the strategies themselves.
@@ -113,9 +121,9 @@ Past exam problems can be found at [practice.dsc40a.com](https://practice.dsc40a
 <!-- Below, you'll find some exams (and in some cases, their solutions) from previous offerings of the course. You must be logged into your @ucsd.edu Google account to access these. -->
 
 <!-- Some things to keep in mind:
-- Certain offerings of the course had one midterm and others had two. Usually, Midterm 1 covered empirical risk minimization, and Midterm 2 covered probability. 
+- Certain offerings of the course had one midterm and others had two. Usually, Midterm 1 covered empirical risk minimization, and Midterm 2 covered probability.
 - Topic coverage and ordering has changed over time, so the content in our exams won't necessarily exactly match the content of these past exams.
-- Some of these exams were given as closed-book exams and others allowed the use of resources. 
+- Some of these exams were given as closed-book exams and others allowed the use of resources.
  -->
 
 <!-- | Quarter | Instructor(s) | Midterm/Midterm 1 | Midterm 2 | Final |
@@ -132,8 +140,8 @@ Past exam problems can be found at [practice.dsc40a.com](https://practice.dsc40a
 ## Other Resources
 
 - Other lectures on [Loss Functions](http://ds100.org/su20/lecture/lec11) and [Simple Linear Regression](http://ds100.org/su20/lecture/lec12/).
-    - These are from a different course for a different audience, and use different notation and terminology. However, the high-level ideas are similar to those in the first few weeks of our course.
+  - These are from a different course for a different audience, and use different notation and terminology. However, the high-level ideas are similar to those in the first few weeks of our course.
 - [Gradient Descent visualizer](https://uclaacm.github.io/gradient-descent-visualiser/#playground).
 - Notes on [Convexity](https://sboyles.github.io/teaching/ce377k/convexity.pdf) by Stephen Boyles.
 
-If you find another helpful resource, let us know and we can link it here! 
+If you find another helpful resource, let us know and we can link it here!

@@ -1,4 +1,4 @@
-# Website for DSC 40A, Spring 2024
+# Website for DSC 40A, Fall 2024
 
 This branch contains the source code for the course website. See [this video](https://www.youtube.com/watch?v=MEeLr9GRa3I) for how to make updates to the website, or read the instructions below.
 
@@ -8,9 +8,11 @@ Just the Class is built for [Jekyll](https://jekyllrb.com), a static site genera
 
 1. Follow the GitHub documentation for [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
 1. Start your local Jekyll server.
+
 ```bash
 $ bundle exec jekyll serve
 ```
+
 1. Point your web browser to [http://localhost:4000](http://localhost:4000)
 1. Reload your web browser after making a change to preview its effect.
 
