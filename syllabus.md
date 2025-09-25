@@ -78,9 +78,10 @@ Your worksheet is due to Gradescope on **Mondays at 11:59PM**. Only one member o
 
 This class will have weekly homework assignments, which will usually be due to Gradescope on Fridays at 11:59PM.
 
-Homeworks should be written or typed up and turned in by each student individually. If you want to type up your answers, we will provide a LaTeX template through Overleaf; click the 🍃 emoji next to each homework on the homepage to access the template. Follow [these instructions](https://www.overleaf.com/learn/how-to/Copying_a_project#Making_a_copy_of_a_project) to make a copy of the template, and then add your solutions.
+Homeworks should be written by hand. Make sure that your handwriting is clearly legible – if we can't read what you've written, we can't give you points for it!
+<!--  or typed up and turned in by each student individually. If you want to type up your answers, we will provide a LaTeX template through Overleaf; click the 🍃 emoji next to each homework on the homepage to access the template. Follow [these instructions](https://www.overleaf.com/learn/how-to/Copying_a_project#Making_a_copy_of_a_project) to make a copy of the template, and then add your solutions. -->
 
-**Using the template is optional, except for Homework 2, for which it will be mandatory.** The purpose of this is to ensure that all students are exposed to LaTeX at some point, since it'll be useful in later DSC courses as well; we're requiring it in an earlier homework so that if you find that you like it, you'll choose to use it for the remainder of the homeworks. If you choose not to use the template in other homeworks, make sure that your handwriting is clearly legible – if we can't read what you've written, we can't give you points for it!
+<!-- **Using the template is optional, except for Homework 2, for which it will be mandatory.** The purpose of this is to ensure that all students are exposed to LaTeX at some point, since it'll be useful in later DSC courses as well; we're requiring it in an earlier homework so that if you find that you like it, you'll choose to use it for the remainder of the homeworks. If you choose not to use the template in other homeworks, make sure that your handwriting is clearly legible – if we can't read what you've written, we can't give you points for it! -->
 
 You may talk to other students in the class about the problems and discuss solution strategies, but you should not share any written communication. You can tell someone how to do a homework problem, but you cannot show them how to do it. One way to tell if you are respecting this boundary is to ask yourself whether your collaboration could take place over the phone. Additionally, the content of your verbal communication should involve the problem-solving strategy and approach, and you should not directly compare answers with classmates.
 
@@ -118,7 +119,7 @@ To summarize, here's what a typical week will look like in the course (there may
 
 There will be one Midterm Exam and one Final Exam, both held in person.
 
-- **Midterm Exam**: Monday November 4th, in person, during lecture slot in Center Hall 119.
+- **Midterm Exam**: Monday November 3rd, in person, during lecture slot in Center Hall 119.
 - **Final Exam**: Monday, December 8th, 11:30AM-2:30PM, Location: Center Hall 119.
 
 The Midterm Exam will be worth 20% of your overall course grade. The Final Exam will be worth 30% of your overall course grade and will be cumulative.
