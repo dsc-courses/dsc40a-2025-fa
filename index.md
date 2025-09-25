@@ -13,7 +13,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[Jump to the current week](#week-5-conditional-independence-naïve-bayes-and-classification-br-small-read-this-note-on-a-href-conditional-independence-conditional-independence-a-small){: .btn } [Assignment Solutions](https://edstem.org/us/courses/66639/resources){: .btn .btn-purple }
+[Jump to the current week](#week-0-introduction-to-modeling-br){: .btn } [Assignment Solutions](){: .btn .btn-purple }
 
 <!-- {: .green }
 
