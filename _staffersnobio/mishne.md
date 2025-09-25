@@ -5,6 +5,6 @@ pronouns: she/her/hers
 email: gmishne@ucsd.edu
 website: https://mishne.ucsd.edu
 photo: assets/staff-images/Mishne.jpg
-lecture: MWF 1:00-1:50PM <a href="https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?m/246320?s/PCYNH">Pepper Canyon Hall 106</a>
+lecture: MWF 1:00-1:50PM <a href="https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?m/163044?s/center%20hall">Center Hall 119</a>
 description: Associate Professor, HDSI
 ---
