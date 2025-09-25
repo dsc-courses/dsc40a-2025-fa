@@ -27,13 +27,14 @@ But how do we learn from data? This is the central question of DSC 40A. We will 
 
 ## Communication 💬
 
-This quarter, we'll be using [Ed](https://edstem.org/us/courses/66639/) as our course message board. You should be added to Ed automatically; if not, join using [this link](https://edstem.org/us/join/Tcwhj7). Please join right away as we'll be making all course announcements through Ed.
+This quarter, we'll be using [Campuswire](https://campuswire.com/c/G6420479A/feed/) as our course message board. You should be added to Campuswire automatically. <!-- if not, join using [this link](https://edstem.org/us/join/Tcwhj7). Please join right away as 
+We'll be making all course announcements through Campuswire.-->
 
-If you have a question about anything to do with the course — if you're stuck on a problem, didn't understand something from lecture, want clarification on course logistics, or just have a general question about data science — you can make a post on Ed. We only ask that if your question includes some or all of an answer (even if you're not sure it's right), please make your post private so that others cannot see it. You can also post anonymously if you would prefer.
+If you have a question about anything to do with the course — if you're stuck on a problem, didn't understand something from lecture, want clarification on course logistics, or just have a general question about data science — you can make a post on Campuswire. We only ask that if your question includes some or all of an answer (even if you're not sure it's right), please make your post private so that others cannot see it. You can also post anonymously if you would prefer.
 
-Course staff will regularly check Ed and try to answer any questions that you have. You're also encouraged to answer questions asked by other students. Explaining something is a great way to solidify your understanding of it!
+Course staff will regularly check Campuswire and try to answer any questions that you have. You're also encouraged to answer questions asked by other students. Explaining something is a great way to solidify your understanding of it!
 
-Please don't email staff members (and don't message them on social media), just make a private or public Ed post instead!
+Please don't email staff members (and don't message them on social media), just make a private or public Campuswire post instead!
 
 ---
 
@@ -42,8 +43,8 @@ Please don't email staff members (and don't message them on social media), just 
 We will be using several websites this quarter. Here's what they're all used for:
 
 - [Course Website](https://dsc40a.com): Where all content will be posted.
-- [Ed](https://edstem.org/us/courses/66639/discussion/): Discussion forum for announcements and communication.
-- [Gradescope](https://www.gradescope.com/courses/865394): Platform for submitting assignments and viewing grades. You should be automatically added to Gradescope within 24 hours of enrolling.
+- [Campuswire](https://campuswire.com/c/G6420479A/feed/): Discussion forum for announcements and communication.
+- [Gradescope](https://www.gradescope.com/courses/1145276/): Platform for submitting assignments and viewing grades. You should be automatically added to Gradescope within 24 hours of enrolling.
 - [Datahub](https://datahub.ucsd.edu): UCSD's data science and machine learning platform, for coding in Jupyter notebooks.
 
 **Note that we will not be using Canvas at all.**
@@ -97,7 +98,7 @@ For each problem you submit, you should cite your sources by including a list of
 
 We also highly encourage you to come to instructor and staff office hours for help on homework questions. The homework assignments for this class are quite challenging and most students are not able to successfully complete the homework from attending lecture alone. Make sure to use the resources provided on the [Resources](../resources) tab of the course website, actively participate in groupwork sessions, and plan to attend office hours at least once a week. Even if you don’t have specific questions, you will likely get a lot out of conversing about the material. See the [Calendar](../calendar) tab of the course website for the most up-to-date schedule of office hours, and directions for how to find us!
 
-You may post homework-related questions on Ed, though your questions (and answers) should be about approaches, not answers. If your question includes some or all of an answer (even if you're not sure it's right), you must make your post private so that others cannot see it. We are not able to tell you whether your answer is correct.
+You may post homework-related questions on Campuswire, though your questions (and answers) should be about approaches, not answers. If your question includes some or all of an answer (even if you're not sure it's right), you must make your post private so that others cannot see it. We are not able to tell you whether your answer is correct.
 
 ### Office Hours
 
