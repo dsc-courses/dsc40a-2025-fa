@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DSC 40A
-description: DSC 40A, Spring 2024 at UC San Diego
+description: DSC 40A, Fall 2025 at UC San Diego
 tagline: Theoretical Foundations of Data Science I
 # when hosted via dsc40a.com
 url: https://dsc40a.com
@@ -29,14 +29,14 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  🙋 Ed:
-    - 'https://edstem.org/us/courses/57667/discussion/'
+  🙋 Campuswire:
+    - 'https://campuswire.com/c/G6420479A/feed/'
   💯 Gradescope:
-    - 'https://www.gradescope.com/courses/759109/'
+    - 'https://www.gradescope.com/courses/1145276/'
   💪 Practice:
-    - 'https://practice.dsc40a.com'
+    - 'https://practice.dsc40a.com/'
   🤔 Lecture Questions:
-    - 'https://docs.google.com/forms/d/e/1FAIpQLSfEaSAGovXZCk_51_CVI587CcGW1GZH1w4Y50dKDzoLEX3D4w/viewform'
+    - 'https://forms.gle/P8PGavAY2SD8NkGKA/'
 footer_content:
 
 # Collections for website data
