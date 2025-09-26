@@ -9,19 +9,21 @@ nav_order: 7
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [q.dsc40a.com](https://docs.google.com/forms/d/e/1FAIpQLSfEaSAGovXZCk_51_CVI587CcGW1GZH1w4Y50dKDzoLEX3D4w/viewform) during lecture, (3) on Ed, and (4) in the relevant Reflection and Feedback Form. If you have other related questions, feel free to post them on Ed.
+Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [q.dsc40a.com](https://docs.google.com/forms/d/e/1FAIpQLSfEaSAGovXZCk_51_CVI587CcGW1GZH1w4Y50dKDzoLEX3D4w/viewform) during lecture, (3) on Campuswire, and (4) in the relevant Reflection and Feedback Form. If you have other related questions, feel free to post them on Ed.
 
 Jump to:
 
+<!-- 
 - [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
 - [Week 7: Combinatorics](#week-7---combinatorics)
 - [Week 5: Gradient descent](#week-5-gradient-decent)
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
-- [Week 3: Linear Algebra](#week-3-linear-algebra)
+- [Week 3: Linear Algebra](#week-3-linear-algebra) -->
 - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
 
 --- 
 
+<!--
 ## Week 9: Bayes' Theorem and Naive Bayes Classifier
 
 ### Why can we disregard the denominator in the Naive Bayes classifier?
@@ -36,13 +38,11 @@ Think of it like comparing fractions with the same denominator. The one with the
 - [Lecture 25](https://dsc40a.com/resources/lectures/lec25/lec25-filled.pdf)
 =======
 Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator (P(features|class) * P(class)) is the most likely class for the given data point.
->>>>>>> Stashed changes
 
 ### Why do we divide by the marginal probability and not the prior probability in Bayes' Theorem?
 
 In Bayes' theorem, we're aiming to calculate the posterior probability, which is the probability of an event occurring after observing new evidence. The formula is:
 
-<<<<<<< Updated upstream
 $$ P(A|B) = \frac{P(B|A)  P(A)}{ P(B)} $$
 
 Let's break down the components:
@@ -59,7 +59,6 @@ The prior probability, $$P(A)$$, represents our initial belief about the likelih
 **Why divide by the marginal, $$P(B)$$?**
 
 The marginal probability, $$P(B)$$, acts as a normalization factor. It ensures that the posterior probability, $$P(A|B)$$, is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by $$P(B)$$, we're adjusting the likelihood and prior to account for the overall probability of observing B.
-=======
 ```
 P(A|B) = P(B|A) * P(A) / P(B)
 ```
@@ -78,7 +77,6 @@ The prior probability, P(A), represents our initial belief about the likelihood 
 **Why divide by the marginal, P(B)?**
 
 The marginal probability, P(B), acts as a normalization factor. It ensures that the posterior probability, P(A|B), is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by P(B), we're adjusting the likelihood and prior to account for the overall probability of observing B.
->>>>>>> Stashed changes
 
 In summary:
 
@@ -106,7 +104,6 @@ By combining these three elements using Bayes' theorem, we can update our belief
 ## Week 7 - Combinatorics 
 
 ### Permutations vs. Combinations**
->>>>>>> Stashed changes
 
 **Permutations:**
 - Order matters The arrangement of items is important.
@@ -118,11 +115,7 @@ By combining these three elements using Bayes' theorem, we can update our belief
 - Example: Choosing 3 people from a group of 10 to form a committee. The order in which they are chosen doesn't matter.
 - Formula: C(n,k) = n! / (k! * (n-k)!)
 
-<<<<<<< Updated upstream
 #### How to decide when to use permutations and when to use combinations?
-=======
-### How to decide wehn to use permutations and when to use combinations?
->>>>>>> Stashed changes
 
 Does the order matter?
 - If yes: use **permutations**.
@@ -139,14 +132,12 @@ Let's say you have 5 books and you want to choose 3 of them to read.
 - Permutations overcount combinations.
 - If you're unsure, consider a smaller example and list out all the possibilities.
 
-<<<<<<< Updated upstream
 #### Lecture(s) to Review:
 
 - [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
 - [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
 
-=======
->>>>>>> Stashed changes
+
 ### Why do we need to divide by the number of orderings when going from permutations to combinations?
 
 When we transition from permutations to combinations, we're essentially removing the significance of order. To illustrate this, let's consider a simple example:
@@ -192,16 +183,13 @@ Example:
 - Sequences: Creating a 3-digit PIN code using digits 0-9. You can repeat digits, and the order matters (123 is different from 321).
 - Permutations: Arranging 5 people in a line. Each person can only be in one position, and the order of the people matters.
 
-<<<<<<< Updated upstream
 #### Lecture(s) to Review:
 
 - [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
 - [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
 
 ---
-=======
 
->>>>>>> Stashed changes
 
 ## Week 5: Gradient decent
 
@@ -739,6 +727,7 @@ $$R_{\text{sq}}( w_0^*, w_1^* )$$ = $$\frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y} 
 
 ---
 
+-->
 ## Week 1-2: Loss Functions and Simple Linear Regression
 
 ### Isn't the mean affected by outliers? How is it the best prediction?
