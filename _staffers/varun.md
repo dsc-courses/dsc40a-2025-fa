@@ -4,8 +4,7 @@ role: Tutor
 pronouns: he/him
 email: vpabreja@ucsd.edu
 photo: assets/staff-images/varun.jpeg
-description: 3rd year, Data Science, Warren
-hometown: Dubai, United Arab Emirates
+description: 4th year, Data Science, Warren
 askabout: Lego, The Gym, Bojack Horseman, Poker
 foodemoji: 🍳
 food: Taco Stand, Vallartas, Charminar, Bobboi Gelato

@@ -4,7 +4,7 @@ role: TA
 pronouns: He/Him
 email: s5robert@ucsd.edu
 photo: assets/staff-images/sawyer.jpg
-description: 5th year Ph.D. student in Mathematics
+description: 6th year Ph.D. student in Mathematics
 hometown: Norman, Oklahoma, US
 askabout: Yoga, Running, Weightlifting, The Tonight Dough
 foodemoji: 🍨
