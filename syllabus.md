@@ -27,7 +27,7 @@ But how do we learn from data? This is the central question of DSC 40A. We will 
 
 ## Communication 💬
 
-This quarter, we'll be using [Campuswire](https://campuswire.com/c/G6420479A/feed/) as our course message board. You should be added to Campuswire automatically. <!-- if not, join using [this link](https://edstem.org/us/join/Tcwhj7). Please join right away as 
+This quarter, we'll be using [Campuswire](https://campuswire.com/c/G6420479A/feed/) as our course message board. You should be added to Campuswire automatically. if not, join using [this link](https://campuswire.com/p/G6420479A) and provide code 1676. Please join right away as 
 We'll be making all course announcements through Campuswire.-->
 
 If you have a question about anything to do with the course — if you're stuck on a problem, didn't understand something from lecture, want clarification on course logistics, or just have a general question about data science — you can make a post on Campuswire. We only ask that if your question includes some or all of an answer (even if you're not sure it's right), please make your post private so that others cannot see it. You can also post anonymously if you would prefer.
@@ -229,3 +229,4 @@ Satisfactory Academic Progress [(SAP)](https://fas.ucsd.edu/forms-and-resources/
 ## Acknowledgements 🙏
 
 Thanks to other instructors of this course who have made various contributions, including but not limited to Suraj Rampure, Janine Tiefenbruck, Aobo Li, Yian Ma, and Justin Eldridge. Thanks also to the many tutors and TAs who have supported this course since its inception!
+
