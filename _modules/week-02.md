@@ -22,6 +22,14 @@ days:
         title: Empirical Risk Minimization
         blank: resources/lectures/lec03/lec03-blank.pdf
         filled: resources/lectures/lec03/lec03-filled.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa24/dsc40a_a00/3
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/3
+  - date: "2025-10-03"
+    events:
+      - name: LEC 4
+        type: lecture
+        title: Comparing loss functions
+        blank: resources/lectures/lec04/lec04-blank.pdf
+        filled: resources/lectures/lec04/lec04-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/4
 ---
 
