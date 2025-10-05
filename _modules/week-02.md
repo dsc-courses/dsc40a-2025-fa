@@ -15,6 +15,10 @@ days:
         title: Groupwork 1
         problems: resources/groupworks/gw01.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 1
+        type: disc
+        title: Groupwork 1 Solutions
+        problems: resources/groupworks/gw01_soln.pdf
   - date: "2025-10-01"
     events:
       - name: LEC 3
@@ -32,4 +36,5 @@ days:
         filled: resources/lectures/lec04/lec04-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/4
 ---
+
 
