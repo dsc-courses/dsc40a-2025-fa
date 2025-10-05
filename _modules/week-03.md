@@ -3,6 +3,14 @@ title: "Week 2 – Simple Linear Regression<br><small>📘 Read <a href='resourc
 weekNumber: 2
 days:
 
+  - date: "2025-10-06"
+    events:
+      - name: DISC 2
+        type: disc
+        title: Groupwork 2
+        problems: resources/groupworks/gw02.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+        
   - date: "2025-10-10"
     events:
       - name: HW 1 due
