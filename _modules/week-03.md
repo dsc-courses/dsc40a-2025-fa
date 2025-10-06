@@ -5,6 +5,12 @@ days:
 
   - date: "2025-10-06"
     events:
+      - name: LEC 5
+        type: lecture
+        title: Prediction with features
+        blank: resources/lectures/lec05/lec05-blank.pdf
+        filled: resources/lectures/lec05/lec05-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/5    
       - name: DISC 2
         type: disc
         title: Groupwork 2
