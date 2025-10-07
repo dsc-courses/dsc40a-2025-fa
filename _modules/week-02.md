@@ -27,9 +27,6 @@ days:
         blank: resources/lectures/lec03/lec03-blank.pdf
         filled: resources/lectures/lec03/lec03-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/3
-      - name: READ
-        type: proj
-        title: [Recommended Reading: Course Notes Section 1.3, 'Vector-valued features and targets'](https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=17)
   - date: "2025-10-03"
     events:
       - name: LEC 4
@@ -39,6 +36,7 @@ days:
         filled: resources/lectures/lec04/lec04-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/4
 ---
+
 
 
 
