@@ -1,5 +1,5 @@
 ---
-title: "Week 2 – Simple Linear Regression<br><small>📘 Read <a href='resources/notes/notes_chapter_2.pdf#page=1'>Note 2, Pages 1-7</a>, <a href='https://www.xkcd.com/1725/'>xkcd</a>.</small>"
+title: "Week 2 – Simple Linear Regression<br><small>📕 Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=33'>Section 2.1</a>, <a href='https://www.xkcd.com/1725/'>xkcd</a>.</small>"
 weekNumber: 2
 days:
 
