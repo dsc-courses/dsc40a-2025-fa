@@ -7,14 +7,19 @@ nav_order: 4
 
 # 📚 Resources
 
-{:.no_toc}
+---
 
-## Table of contents
+## Course Notes
 
-{: .no_toc .text-delta }
+A full set of course notes for DSC 40A was written by Sawyer Jack Robertson in Summer 2025. Note that coverage may vary from quarter to quarter.
 
-1. TOC
-   {:toc}
+- [Theoretical Foundations of Data Science: Lecture Notes For DSC 40A](https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf)
+
+Additional notes for this class were written by Janine Tiefenbruck and Justin Eldridge. These notes cover the material from the first half of the course.
+
+- [Chapter 1: Learning via Optimization](../resources/notes/notes_chapter_1.pdf)
+- [Supplement on Spread](../resources/notes/spread.pdf)
+- [Chapter 2: Least Squares Regression](../resources/notes/notes_chapter_2.pdf)
 
 ---
 
@@ -51,16 +56,6 @@ In the table below, you can find lecture videos created by Janine Tiefenbruck, w
 | [Video 25](https://youtu.be/AUiX4gWWsuE) | independence, conditional independence                      |
 | [Video 26](https://youtu.be/WLQMoA4ZAus) | naive Bayes                                                 |
 | [Video 27](https://youtu.be/4tGtziW901Y) | text classification, spam filter, naive Bayes               |
-
----
-
-## Course Notes
-
-The notes for this class were written by Janine Tiefenbruck and Justin Eldridge. These notes cover the material from the first half of the course, but as of Summer 2024, the order of coverage may be different.
-
-- [Chapter 1: Learning via Optimization](../resources/notes/notes_chapter_1.pdf)
-- [Supplement on Spread](../resources/notes/spread.pdf)
-- [Chapter 2: Least Squares Regression](../resources/notes/notes_chapter_2.pdf)
 
 ---
 
@@ -145,3 +140,4 @@ Past exam problems can be found at [practice.dsc40a.com](https://practice.dsc40a
 - Notes on [Convexity](https://sboyles.github.io/teaching/ce377k/convexity.pdf) by Stephen Boyles.
 
 If you find another helpful resource, let us know and we can link it here!
+
