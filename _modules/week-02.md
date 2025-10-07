@@ -1,5 +1,5 @@
 ---
-title: "Week 1 - Loss Functions<br><small>📕 Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=11'>Section 1.2, Pages 11-17</a></small>,  <a href='https://xkcd.com/2435/'>xkcd</a>.</small>"
+title: "Week 1 - Loss Functions<br><small>📕 Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=11'>Section 1.2, Pages 11-17</a>, <a href='https://xkcd.com/2435/'>xkcd</a>.</small>"
 weekNumber: 1
 days:
   - date: "2025-09-29"
@@ -36,6 +36,7 @@ days:
         filled: resources/lectures/lec04/lec04-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/4
 ---
+
 
 
 
