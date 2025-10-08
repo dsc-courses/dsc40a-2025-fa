@@ -61,6 +61,13 @@
                 <small>&nbsp;&nbsp;<a href="{{ event.solutions }}"><button type="button" class="btn btn-info">📝 solutions</button></a></small>
                 {%- endif -%}
               {%- endif -%}
+              {%- if event.type == "extra" -%}
+                {%- if event.link -%}
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <small><a href="{{ event.link }}"><button type="button" class="btn btn-info">📕 notes</button></a></small>
+                {%- endif -%}
+              {%- endif -%}
             </p>
             <p>
               <!-- 
@@ -88,3 +95,4 @@
   </div>
   {% endif %}
 </div>
+
