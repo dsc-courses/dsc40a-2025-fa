@@ -16,7 +16,14 @@ days:
         title: Groupwork 2
         problems: resources/groupworks/gw02.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
-        
+  - date: "2025-10-08"
+    events:
+      - name: LEC 6
+        type: lecture
+        title: Simple linear regression
+        blank: resources/lectures/lec06/lec06-blank.pdf
+        filled: resources/lectures/lec06/lec06-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/6           
   - date: "2025-10-10"
     events:
       - name: HW 1 due
