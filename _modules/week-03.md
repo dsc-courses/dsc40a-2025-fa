@@ -26,6 +26,12 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/6           
   - date: "2025-10-10"
     events:
+      - name: LEC 7
+        type: lecture
+        title: Simple linear regression and correlation
+        blank: resources/lectures/lec07/lec07-blank.pdf
+        filled: resources/lectures/lec07/lec07-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/7       
       - name: HW 1 due
         type: hw
         title: <b>Homework 1</b>
