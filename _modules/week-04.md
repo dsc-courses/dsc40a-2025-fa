@@ -8,4 +8,5 @@ days:
       - name: HW 2 due
         type: hw
         title: <b>Homework 2</b>
+        problems: resources/homeworks/homework2.pdf
 ---
