@@ -1,5 +1,5 @@
 ---
-title: "Week 3 – Linear Algebra: Dot products and projections<br><small>🎥 Watch <a href='https://www.youtube.com/watch?v=k7RM-ot2NWY&ab_channel=3Blue1Brown'>3blue1brown</a>, <a href='https://xkcd.com/1838/'>xkcd</a>.</small>"
+title: "Week 3 – Linear Algebra: Dot products and projections<br><small>🎥 Watch <a href='https://www.youtube.com/watch?v=k7RM-ot2NWY&ab_channel=3Blue1Brown'>3blue1brown</a>, 📕 Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=133'>Appendix B</a>, <a href='https://xkcd.com/1838/'>xkcd</a>.</small>"
 weekNumber: 3
 days:
   - date: "2025-10-13"
