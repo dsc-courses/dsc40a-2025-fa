@@ -16,6 +16,10 @@ days:
         title: Groupwork 2
         problems: resources/groupworks/gw02.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 2
+        type: disc
+        title: Groupwork 2 Solutions
+        problems: resources/groupworks/gw02_soln.pdf
   - date: "2025-10-08"
     events:
       - name: LEC 6
