@@ -9,7 +9,7 @@ nav_order: 7
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [q.dsc40a.com](https://docs.google.com/forms/d/e/1FAIpQLSfEaSAGovXZCk_51_CVI587CcGW1GZH1w4Y50dKDzoLEX3D4w/viewform) during lecture, (3) on Campuswire, and (4) in the relevant Reflection and Feedback Form. If you have other related questions, feel free to post them on Ed.
+Moving forward, we're going to **try** and update this page each week to provide answers to questions asked (1) live in lecture, (2) at [q.dsc40a.com](https://docs.google.com/forms/d/e/1FAIpQLSfEaSAGovXZCk_51_CVI587CcGW1GZH1w4Y50dKDzoLEX3D4w/viewform) during lecture, (3) on Campuswire, and (4) in the relevant Reflection and Feedback Form. If you have other related questions, feel free to post them on Campuswire.
 
 Jump to:
 
@@ -790,17 +790,12 @@ We spent the first week of class minimizing empirical risk, $$R(h)$$. We found t
 
 In the image above, $$h^*$$ is the $$x$$-coordinate of the vertex (80 and 85). We know what 80 and 85 mean – they're the mean and median of the dataset 72, 90, 61, 85, 92, respectively. What we were trying to give context to is what 150 and 9.9 mean – they're the variance and the mean absolute deviation from the median of our dataset. Both the variance and mean absolute deviation from the median are measurements of spread.
 
-#### Lecture(s) to Review:
-
-- N/A
 
 ### Are there more loss functions outside of what we learned in class?
 
 There are plenty! For example, there's Huber loss, which is like a smoothed version of absolute loss (it's absolute loss, with the corner at the bottom replaced with the bottom of a parabola). There's also cross-entropy loss, also known as "log loss", which is designed for models that predict probabilities (like logistic regression). These, and many more, will come up in future ML classes, like DSC 140A and CSE 158/DSC 148.
 
-#### Lecture(s) to Review:
 
-- N/A
 
 ### How do I know which loss function to choose in practice?
 
@@ -884,9 +879,6 @@ $$R_\text{abs}(w_0, w_1) = \frac{1}{n} \sum_{i = 1}^n \lvert y_i - (w_0 + w_1 x_
 
 So, we have to use the computer to approximate the answer. Regression with squared loss is called "least squares regression," but regression with absolute loss is called "least absolute deviations regression." You can learn more [here](https://en.wikipedia.org/wiki/Least_absolute_deviations)!
 
-#### Lecture(s) to Review:
-
-- N/A
 
 
 ### Can you recap the proof of the formula for $$w_1^*$$ that includes $$r$$?
@@ -962,10 +954,4 @@ $$
 
 - [Lecture 5](https://dsc40a.com/resources/lectures/lec05/lec05-filled.pdf) (Slide 18)
 
-### Can you post the slides earlier than 20 minutes before lecture?
 
-I'll try, but I'm making lots of changes to the lectures this quarter, and that usually takes me until right before lecture 😅
-
-#### Lecture(s) to Review:
-
-- N/A
