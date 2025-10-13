@@ -7,6 +7,9 @@ days:
       - name: LEC 8
         type: lecture
         title: Linear algebra - vectors and dot product
+        blank: resources/lectures/lec08/lec08-blank.pdf
+        filled: resources/lectures/lec08/lec08-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/8   
       - name: DISC 3
         type: disc
         title: Groupwork 3
