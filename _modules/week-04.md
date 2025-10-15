@@ -15,6 +15,13 @@ days:
         title: Groupwork 3
         problems: resources/groupworks/gw03.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+  - date: "2025-10-15"
+    events:   
+      - name: LEC 9
+        type: lecture
+        title: Linear algebra - span and projections
+        filled: resources/lectures/lec09/lec09-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/9   
   - date: "2025-10-17"
     events:   
       - name: HW 2 due
