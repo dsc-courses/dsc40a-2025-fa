@@ -13,7 +13,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[Jump to the current week](#week-0-introduction-to-modeling-br){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
+[Jump to the current week](#week-3-linear-algebra-dot-products-and-projections-br){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
 
 <!-- {: .green }
 
