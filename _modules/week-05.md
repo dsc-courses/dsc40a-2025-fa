@@ -7,5 +7,5 @@ days:
       - name: HW 3 due
         type: hw
         title: <b>Homework 3</b>
-        problems: resources/homeworks/hw03.pdf
+        problems: resources/homeworks/homework3.pdf
 ---
