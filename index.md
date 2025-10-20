@@ -13,7 +13,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[Jump to the current week](#week-3-linear-algebra-dot-products-and-projections-br){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
+[Jump to the current week](#week-4-multiple-linear-regression-and-linear-algebra-br-small-read-a-href-https-xkcd-com-2048-xkcd-a-small){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
 
 <!-- {: .green }
 
@@ -22,3 +22,4 @@ nav_order: 1
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
+
