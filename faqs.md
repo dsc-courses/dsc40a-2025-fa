@@ -469,6 +469,8 @@ Generally, this situation arises when one of the columns of our design matrix $$
 - [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 
+-->
+
 ## Week 3: Linear Algebra
 
 
@@ -727,7 +729,7 @@ $$R_{\text{sq}}( w_0^*, w_1^* )$$ = $$\frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y} 
 
 ---
 
--->
+
 ## Week 1-2: Loss Functions and Simple Linear Regression
 
 ### Isn't the mean affected by outliers? How is it the best prediction?
