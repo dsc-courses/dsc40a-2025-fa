@@ -15,6 +15,10 @@ days:
         title: Groupwork 3
         problems: resources/groupworks/gw03.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 3
+        type: disc
+        title: Groupwork 3 Solutions
+        problems: resources/groupworks/gw03_soln.pdf
   - date: "2025-10-15"
     events:   
       - name: LEC 9
