@@ -17,9 +17,9 @@ Jump to:
 - [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
 - [Week 7: Combinatorics](#week-7---combinatorics)
 - [Week 5: Gradient descent](#week-5-gradient-decent)
-- [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
-- [Week 3: Linear Algebra](#week-3-linear-algebra) -->
-- [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
+- [Week 4: Multiple linear regression](#week4-multiple-linear-regression)-->
+- [Week 3: Linear Algebra](#week-3-linear-algebra) 
+<!-- - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)-->
 
 --- 
 
@@ -955,5 +955,6 @@ $$
 #### Lecture(s) to Review
 
 - [Lecture 5](https://dsc40a.com/resources/lectures/lec05/lec05-filled.pdf) (Slide 18)
+
 
 
