@@ -40,4 +40,5 @@ days:
         type: hw
         title: <b>Homework 1</b>
         problems: resources/homeworks/homework1.pdf
+        solutions: resources/homeworks/homework1_solutions.pdf
 ---
