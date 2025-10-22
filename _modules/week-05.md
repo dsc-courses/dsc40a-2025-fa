@@ -15,6 +15,15 @@ days:
         title: Groupwork 4
         problems: resources/groupworks/gw04.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+  - date: "2025-10-22"
+    events:
+      - name: LEC 12
+        type: lecture
+        title: Multiple Linear Regression
+        blank: resources/lectures/lec12/lec12-blank.pdf
+        filled: resources/lectures/lec12/lec12-filled.pdf
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2025-fa&subPath=lectures/lec12/lec12_code.ipynb
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/12   
   - date: "2025-10-24"
     events:
       - name: HW 3 due
