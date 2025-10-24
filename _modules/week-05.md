@@ -26,6 +26,12 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/12   
   - date: "2025-10-24"
     events:
+      - name: LEC 13
+        type: lecture
+        title: Feature Engineering
+        blank: resources/lectures/lec13/lec13-blank.pdf
+        filled: resources/lectures/lec13/lec13-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/13   
       - name: HW 3 due
         type: hw
         title: <b>Homework 3</b>
