@@ -1,5 +1,5 @@
 ---
-title: "Week 6"
+title: "Week 5"
 weekNumber: 5
 days:
   - date: "2025-10-31"
