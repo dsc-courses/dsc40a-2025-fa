@@ -1,5 +1,5 @@
 ---
-title: "Week 4 - Multiple Linear regression and linear algebra<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=44'>Section 2.3 B</a>, <a href='https://xkcd.com/2048/'>xkcd</a>.</small>"
+title: "Week 4 - Multiple Linear regression and linear algebra<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=44'>Section 2.3</a>, <a href='https://xkcd.com/2048/'>xkcd</a>.</small>"
 weekNumber: 4
 days:
   - date: "2025-10-20"

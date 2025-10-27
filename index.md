@@ -13,7 +13,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[Jump to the current week](#week-4-multiple-linear-regression-and-linear-algebra-br-small-read-a-href-https-xkcd-com-2048-xkcd-a-small){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
+[Jump to the current week](#week-5-gradient-descent-br-small-read-course-notes-a-href-https-sawyer-jack-1-github-io-assets-teaching-tfds-book-pdf-page-74-section-3-2-a-optional-see-a-href-https-sboyles-github-io-teaching-ce377k-convexity-pdf-these-notes-on-convexity-a-a-href-https-x-com-sillyalexnorris-status-1022803306173923328-webcomic-name-a-small){: .btn } <!--[Assignment Solutions](){: .btn .btn-purple }-->
 
 <!-- {: .green }
 
