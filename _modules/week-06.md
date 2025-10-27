@@ -1,5 +1,5 @@
 ---
-title:  "Week 5 – Gradient Descent<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=74'>Section 3.2 B</a>, Optional: see <a href='https://sboyles.github.io/teaching/ce377k/convexity.pdf'>these notes on convexity</a>, <a href='https://x.com/sillyalexnorris/status/1022803306173923328'>webcomic name</a>.</small>"
+title:  "Week 5 – Gradient Descent<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=74'>Section 3.2</a>, Optional: see <a href='https://sboyles.github.io/teaching/ce377k/convexity.pdf'>these notes on convexity</a>, <a href='https://x.com/sillyalexnorris/status/1022803306173923328'>webcomic name</a>.</small>"
 weekNumber: 5
 days:
   - date: "2024-10-27"
