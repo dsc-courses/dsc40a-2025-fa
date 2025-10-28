@@ -16,9 +16,9 @@ Jump to:
 <!-- 
 - [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
 - [Week 7: Combinatorics](#week-7---combinatorics)
-- [Week 5: Gradient descent](#week-5-gradient-decent)
-- [Week 4: Multiple linear regression](#week4-multiple-linear-regression)-->
-- [Week 3: Linear Algebra](#week-3-linear-algebra) 
+- [Week 5: Gradient descent](#week-5-gradient-decent)-->
+- [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
+<!-- - [Week 3: Linear Algebra](#week-3-linear-algebra) 
 <!-- - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)-->
 
 --- 
@@ -242,6 +242,7 @@ $$ f(a)(1-t)+f(b)t \geq  f(a(1-t)+bt) $$
 - [Lecture 16](https://dsc40a.com/resources/lectures/lec16/lec16-filled.pdf)
 
 ---
+-->
 
 ## Week 4: Multiple linear regression
 
@@ -469,7 +470,7 @@ Generally, this situation arises when one of the columns of our design matrix $$
 - [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
 
 
--->
+
 
 ## Week 3: Linear Algebra
 
@@ -955,6 +956,14 @@ $$
 #### Lecture(s) to Review
 
 - [Lecture 5](https://dsc40a.com/resources/lectures/lec05/lec05-filled.pdf) (Slide 18)
+
+### Is the correlation the same thing as the linear regression line?
+
+No, they are different tools. Think of it this way:
+* Correlation ($r$): This is like a report card that gives a single score (from -1 to 1) describing the potential for a straight-line relationship between two variables. It tells you how good of a relationship exists.
+* Simple Linear Regression (SLR): This is the actual prediction tool (the line itself). It is the mechanism we use to draw the mathematically "best possible" straight line to capture that relationship.
+
+If the correlation's "report card" score is close to $\pm 1$, it means the straight line (SLR) will be a very reliable and accurate prediction tool. If the correlation is close to $0$, the SLR line is still the "best" straight line, but it will be a terrible, unreliable predictor.
 
 
 
