@@ -733,6 +733,28 @@ $$R_{\text{sq}}( w_0^*, w_1^* )$$ = $$\frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y} 
 
 ## Week 1-2: Loss Functions and Simple Linear Regression
 
+### The Correct ERM (Empirical Risk Minimization) Modeling Steps
+(1) Choose a model $$H(\mathbf{x}; \mathbf{w})$$ 
+— transform the abstract task into a concrete function class.  
+Without choosing the model first, you cannot properly define the parameters or the empirical risk.
+
+(2) Choose a loss function $$L(y,\hat{y})$$
+— specify how prediction error is measured.
+
+(3) Define the empirical risk $$R(\mathbf{w})$$
+— aggregate the loss over the dataset, e.g.  
+$$
+R(\mathbf{w})=\frac{1}{n}\sum_{i=1}^n L\big(y_i,\,H(\mathbf{x}_i;\mathbf{w})\big)
+$$
+
+(4) Minimize $$R(\mathbf{w})$$
+— choose a solution method (closed-form, Gradient Descent, or other numerical optimization algorithms).
+
+Common Misconceptions:
+Choose loss --> calculate risk --> take derivative --> set to zero
+This is the specific calculus-based solution for a specific model. If the loss function is non-differentiable, the model includes constraints, the optimization landscape is non-convex, or no closed-form solution exists, you should not use this approach. Instead, we must rely on more general optimization methods such as Gradient Descent (taught in week 5) or other numerical algorithms. 
+In short, taking the derivative and setting it to zero is a method of solution, not a modeling step.
+
 ### Isn't the mean affected by outliers? How is it the best prediction?
 
 A prediction is only the "best" relative to some loss function. When using the constant model, $$H(x) = h$$, the mean is the best prediction only if we choose to use the squared loss function, $$L_\text{sq}(y_i, h) = (y_i - h)^2$$. If we choose another loss function, like absolute loss $$L_\text{abs}(y_i, h) = \lvert y_i - h \rvert$$, the mean is no longer the best prediction.
@@ -744,6 +766,12 @@ The key idea is that different loss functions lead to different "best" parameter
 - [Lecture 2](https://dsc40a.com/resources/lectures/lec02/lec02-filled.pdf)
 
 - [Lecture 3](https://dsc40a.com/resources/lectures/lec03/lec03-filled.pdf)
+
+### Does Loss Function = Empirical Risk Function
+Loss function $$(y_i - \hat{y}_i)^2$$: Error for a **single** data point 
+Empirical risk function $$\frac{1}{n}\sum_{i=1}^n L(y_i, \hat{y}_i)$$: The **average** of the loss over the entire dataset
+
+Reminder: It is the empirical risk $$R(\mathbf{w})$$ (which is a function of the model parameters $$\mathbf{w}$$) that we take the derivative of and minimize. Maintaining this distinction is vital for mathematical rigor as we move toward more complex models. You can find an exmaple for this concept below. The title is "Does empirical risk = mean squared error?".
 
 ### Does empirical risk = mean squared error?
 
@@ -760,6 +788,44 @@ The key idea is that different loss functions lead to different "best" parameter
 
 - [Lecture 4](https://dsc40a.com/resources/lectures/lec04/lec04-filled.pdf)
 
+### Why is MSE sensitive to outliers? (The Mathematical Mechanism)
+The loss increases quadratically with the error. This mathematical mechanism causes large errors to contribute disproportionately more to the total loss. As a result, a few outliers can strongly influence the minimizer.
+
+**Example:**
+If the prediction error is 10, the squared loss is 100.
+If the prediction error is 100, the squared loss jumps to 10,000.
+The error increased by 10×, but the loss increased by 100×.
+
+**Key Takeaway:**
+MSE heavily penalizes large errors, making it highly sensitive to outliers.
+
+### Why is MAE robust to outliers?
+The Mean Absolute Error (MAE) increases **linearly** with the prediction error. A large error and a small error affect the loss only in proportion to their magnitude, without the quadratic amplification seen in MSE. This means that a few extreme points will not overwhelmingly dominate the optimization process. As a result, MAE does not get “pulled” as strongly toward outliers, making it more **robust** to noisy or extreme observations.
+
+**Example:**
+If the prediction error is 10, the loss contribution is 10.
+If the prediction error is 100, the loss contribution is 100.
+The loss increases by the same factor as the error.
+
+**Key Takeaway:**
+MAE treats each data point’s error equally, so the optimization is driven by the entire dataset rather than just a few outliers.
+
+### The connection of MSE & MAE Minimizer and outliers
+Minimizer Behavior:
+Minimizing MSE leads to the mean
+Minimizing MAE leads to the median 
+
+Why is the Mean sensitive to outliers?
+The mean tries to balance the squared errors.
+Because squaring amplifies large residuals, even a single extreme point contributes disproportionately to the total loss. Therefore, the mean will shift significantly toward the outlier to reduce the penalized error.
+
+Why is the Median robust to outliers?
+The median depends only on the order of the data, not on the magnitude of deviations. Large errors and small errors influence the MAE only linearly, so a few extreme values cannot dominate the optimization.
+Thus, the median remains stable in the presence of outliers.
+
+**Key Takeaway:**
+Squared Loss --> Mean --> Highly sensitive to outliers
+Absolute Loss --> Median --> Robust to outliers
 
 ### What does it mean for a minimizer to be unique?
 
@@ -816,7 +882,7 @@ In practice, various models have a "default" choice of loss function. Regression
 
 -  [Lecture 5](https://dsc40a.com/resources/lectures/lec05/lec05-filled.pdf) 
 
-### What was the point of the midrange and infinity loss? Will I actually use that in practice?
+### What was the point of the midrange and infinity loss? Will I actually use that in practice? (What is the infinity loss and why does the midrange minimize it?)
 
 I've never heard of anyone using $$\lvert y_i - h\rvert^p$$ with $$p \rightarrow \infty$$ as a loss function in practice, so no. But the point of us studying that was for us to get a better understanding of how different loss functions penalize different kinds of errors, and in particular, how the optimal constant prediction is influenced by outliers.
 
@@ -826,13 +892,53 @@ Again, for the constant model $$H(x) = h$$:
 - Squared loss, $$(y_i - h)^2$$, is more sensitive to outliers. Remember, the minimizer (the mean) was found by finding the $$h$$ where $$-\frac{2}{n} \sum_{i = 1}^n (y_i - h)= 0$$, because $$-\frac{2}{n} \sum_{i = 1}^n (y_i - h)$$ is the derivative of $$R_\text{sq}(h) = \frac{1}{n} \sum_{i = 1}^n (y_i - h)^2$$. Since this is the case, the mean is "pulled" in the direction of the outliers, since it needs to balance the deviations.
 - Following the pattern, $$\lvert y_i - h\rvert^3$$ would be even more sensitive to outliers.
 
-As we keep increasing the exponent, $$\lvert y_i - h\rvert^p$$ creates a prediction that's extremely sensitive to outliers, to the point where its goal is to balance the worst case (maximum distance) from any one point. That's where the midrange comes in – it's in the middle of the data, so it's not too far from any one point.
+As we keep increasing the exponent, $$\lvert y_i - h\rvert^p$$ creates a prediction that's extremely sensitive to outliers, to the point where its goal is to balance the worst case (maximum distance) from any one point. That's where the midrange comes in. It's in the middle of the data, so it's not too far from any one point. 
+
+why does the midrange minimize it?
+In short, its goal is to balance the worst case (maximum distance) from any one point. That’s where the midrange comes in. It’s in the middle of the data, so it’s not too far from any one point.
 
 So while no, you won't really use the idea of "infinity loss" in practice, I hope that by deeply understanding how it works, you'll better understand how loss functions (including those we haven't seen in class, but do exist in the real world) work and impact your predictions.
+
+### What does the limit $$(p \to \infty)$$ mean for the $$L_p \text{ norm}$$?
+$$
+\Vert \mathbf{e} \Vert_p = \left( \sum_{i=1}^n |e_i|^p \right)^{1/p}
+$$
+
+As (p) increases, large errors are penalized more heavily.
+Taking the limit:
+$$
+\lim_{p \to \infty} \Vert \mathbf{e} \Vert_p = \max_i |e_i|
+$$
+
+So $$(L_\infty)$$ is the limit case of $$L_p \text{ norm}$$.
+
+### Why do we use the $$L_p \text{ norm}$$ to define the $$L_p \text{ loss}$$
+Residuals form a vector of errors:
+$$
+\mathbf{e} = \mathbf{y} - \hat{\mathbf{y}}
+$$
+
+We use the vector norm to define the loss:
+$$
+L_p(\mathbf{e}) = \Vert \mathbf{e} \Vert_p
+$$
+
+Norms measure the magnitude of the error vector → this becomes the loss we minimize. Different $$p$$ values give different robustness to outliers.
+
 
 #### Lecture(s) to Review:
 
 - [Lecture 4](https://dsc40a.com/resources/lectures/lec04/lec04-filled.pdf) (Slide 19)
+
+
+
+
+
+
+
+
+
+
 
 ### In Lecture 6, is the $$x_i$$ not part of the summation since it is out of the parentheses?
 
