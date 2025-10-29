@@ -16,6 +16,16 @@ days:
         title: Groupwork 5
         problems: resources/groupworks/gw05.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+  - date: "2024-10-29"
+    events:
+      - name: LEC 15
+        type: lecture
+        title: Gradient descent
+        blank: resources/lectures/lec15/lec15-blank.pdf
+        filled: resources/lectures/lec15/lec15-filled.pdf
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2025-fa&subPath=lectures/lec15/lec15-code.ipynb
+        animations: resources/lectures/lec15
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/15
   - date: "2025-10-31"
     events:
       - name: HW 4 due
