@@ -37,7 +37,7 @@ days:
         title: Gradient descent and convexity
         blank: resources/lectures/lec16/lec16-blank.pdf
         filled: resources/lectures/lec16/lec16-filled.pdf
-        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2025-fa&subPath=lectures/lec16/lec15-code.ipynb
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2025-fa&subPath=lectures/lec16/lec16-code.ipynb
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/16
       - name: HW 4 due
         type: hw
