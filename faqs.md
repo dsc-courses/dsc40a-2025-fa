@@ -459,17 +459,90 @@ So, to answer your question, we can absolutely use the normal equations when our
 - [Lecture 12](https://dsc40a.com/resources/lectures/lec12/lec12-filled.pdf)
 
 
+
+### How to know if $$X^TX$$ is invertible
+
+$$X^TX$$ is invertible if and only if the columns (features) of X are **linearly independent**.
+
+**Meaning:**
+Linearly independence means **no feature (column)** can be written as a linear combination of others.
+Mathematically, if $$X\beta = 0$$ implies $$\beta = 0$$, then $$X^TX$$ is invertible.
+
+
+### What it means if $$X^TX$$ is *not* invertible
+
+If $$X^TX$$ is not invertible, it means:
+The features are linearly dependent, i.e., at least one column can be formed by combining others.
+This is called **multicollinearity**.
+
+**Consequences:**
+1, The Normal Equation $$ w^* = (X^T X)^{-1} X^T y $$ **cannot be solved**, because $$ (X^T X)^{-1} $$ does not exist.
+2, Multiple equally valid solutions for $$w^*$$ exist (not unique).
+
 ### When $$X^TX$$ isn't invertible, how do we solve the normal equations?
 
-When $$X^TX$$, we cannot solve the normal equations using traditional methods. That is, if we cannot invert $$X^TX$$, we cannot solve $$w = (X^\mathrm{T}X)^{-1}X^\mathrm{T}y$$. 
+As a starting point, try researching the Moore-Penrose pseudo-inverse and ridge regression as two other approaches to solving for an optimal parameter vector!
 
-Generally, this situation arises when one of the columns of our design matrix $$X$$ is a linear combination of the other columns in $$X$$. This leads to an infinite amount of solutions satisfying the normal equations, and so finding a unique solution is impossible. However, if you are interested in other methods with which to solve the normal equations when $$X$$ is not invertible, feel free to explore them! As a starting point, try researching the Moore-Penrose pseudo-inverse and ridge regression as two other approaches to solving for an optimal parameter vector!
+The Moore–Penrose pseudoinverse, written as  $$X^{+}$$, is a generalization of the matrix inverse that works even when $$X^TX$$ is not invertible.
+
+**Meaning:**
+
+1, The pseudoinverse provides a way to find a **least-squares solution** to the normal equations $$ X^T X w = X^T y $$, even if the columns of X are linearly dependent.
+
+2, It chooses the solution $$w^*$$ with the **smallest possible length (minimum norm)** among all valid solutions.
+
+Formally, the solution is:
+$$
+w^* = X^{+} y
+$$
 
 #### Lecture(s) to Review:
+- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf)
 
-- [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf) 
+### What does $$X^T$$e = 0 mean in plain English?
+X is the design matrix. It contains all features. Each column represents one feature.
 
+e is residual vector. It represents the difference between predicted and actual value.
 
+$$X^T$$e = 0 means that the dot product between each feature column in X (design matrix) and e equals 0.
+
+The residuals are perpendicular (orthogonal) of all feature directions. This shows that the model's predictions are already mathematically optimal. No further adjustment to the weights 𝑤 can make the error smaller.
+
+1️, **Define the residual:**
+
+$$
+e = y - Xw
+$$
+
+2️, **Minimize the sum of squared errors:**
+
+$$
+R(w) = e^T e = (y - Xw)^T (y - Xw)
+$$
+
+3️, **Take the derivative with respect to $$w$$ and set it to 0 (condition for a minimum):**
+
+$$
+\frac{\partial R(w)}{\partial w} = -2X^T (y - Xw) = 0
+$$
+
+4️, **Obtain the key conclusion:**
+
+$$
+X^T (y - Xw) = 0
+$$
+
+That is,
+
+$$
+X^T e = 0
+$$
+
+<center>
+
+<img src="../assets/images/residual-error.jpg" width="500">
+
+</center>
 
 
 ## Week 3: Linear Algebra
@@ -929,16 +1002,6 @@ Norms measure the magnitude of the error vector → this becomes the loss we min
 #### Lecture(s) to Review:
 
 - [Lecture 4](https://dsc40a.com/resources/lectures/lec04/lec04-filled.pdf) (Slide 19)
-
-
-
-
-
-
-
-
-
-
 
 ### In Lecture 6, is the $$x_i$$ not part of the summation since it is out of the parentheses?
 
