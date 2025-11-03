@@ -479,11 +479,12 @@ This is called **multicollinearity**.
 1, The Normal Equation $$ w^* = (X^T X)^{-1} X^T y $$ **cannot be solved**, because $$ (X^T X)^{-1} $$ does not exist.
 2, Multiple equally valid solutions for $$w^*$$ exist (not unique).
 
-### When $$X^TX$$ isn't invertible, how do we solve the normal equations?
+### When $$X^TX$$ isn't invertible, how do we solve the normal equations? 
+### 【This advanced material is NOT included in the scope of the course】
 
 As a starting point, try researching the Moore-Penrose pseudo-inverse and ridge regression as two other approaches to solving for an optimal parameter vector!
 
-The Moore–Penrose pseudoinverse, written as  $$X^{+}$$, is a generalization of the matrix inverse that works even when $$X^TX$$ is not invertible.
+The Moore–Penrose pseudoinverse, written as  $$X^{+}$$, is a generalization of the matrix inverse that works even when $$X^TX$$ is not invertible. 
 
 **Meaning:**
 
@@ -495,6 +496,39 @@ Formally, the solution is:
 $$
 w^* = X^{+} y
 $$
+
+**Why it works:**
+
+- when $$X^{\mathsf T}X$$ is invertible (full column rank):
+
+  $$
+  X^{+} = (X^{\mathsf T}X)^{-1}X^{\mathsf T}, 
+  \qquad 
+  \hat{\vec{w}} = (X^{\mathsf T}X)^{-1}X^{\mathsf T}\vec{y}.
+  $$
+
+- When $$X^{\mathsf T}X$$ is not invertible (rank-deficient or under/over-determined).
+
+Define $$X^{+}$$ via the SVD $$X = U\,\Sigma\,V^{\mathsf T}$$:
+
+  $$
+  X^{+} = V\,\Sigma^{+}\,U^{\mathsf T},
+  $$
+
+  where $$\Sigma^{+}$$ is formed by taking reciprocals of the **nonzero** singular values in $$\Sigma$$ and transposing the shape.
+  This $$X^{+}$$ is uniquely characterized by the **Moore–Penrose conditions**:
+
+  $$
+  XX^{+}X = X, 
+  \qquad 
+  X^{+}XX^{+} = X^{+}, 
+  \qquad 
+  (XX^{+})^{\mathsf T} = XX^{+}, 
+  \qquad 
+  (X^{+}X)^{\mathsf T} = X^{+}X.
+  $$
+
+  These ensure a consistent least-squares solution even when $$X^{\mathsf T}X$$ is singular.
 
 #### Lecture(s) to Review:
 - [Lecture 10](https://dsc40a.com/resources/lectures/lec10/lec10-filled.pdf)
