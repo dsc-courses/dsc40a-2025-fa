@@ -1,5 +1,5 @@
 ---
-title: "Week 6 – Probability<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=74'>Section 4.1</a>, and <a href='resources/#probability-roadmap'>Janine's probability roadmap</a>, <a href='https://xkcd.com/2379/'>xkcd</a>.</small>"
+title: "Week 6 – Probability<br><small>📘 Read Course Notes <a href='https://sawyer-jack-1.github.io/assets/teaching/tfds_book.pdf#page=103'>Section 4.1</a>, and <a href='resources/#probability-roadmap'>Janine's probability roadmap</a>, <a href='https://xkcd.com/2379/'>xkcd</a>.</small>"
 weekNumber: 6
 days:
   - date: "2024-11-05"
