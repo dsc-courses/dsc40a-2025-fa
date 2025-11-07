@@ -17,5 +17,10 @@ days:
         title: Conditional Probability
         blank: resources/lectures/lec18/lec18-blank.pdf
         filled: resources/lectures/lec18/lec18-filled.pdf
+        code: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc40a-2025-fa&subPath=lectures/lec18/lec18-code.ipynb
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/19
+      - name: HW 5 due
+        type: hw
+        title: <b>Homework 5</b>
+        problems: resources/homeworks/homework5.pdf
 ---
