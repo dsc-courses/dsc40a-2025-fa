@@ -10,4 +10,12 @@ days:
         blank: resources/lectures/lec17/lec17-blank.pdf
         filled: resources/lectures/lec17/lec17-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/18
+  - date: "2024-11-07"
+    events:
+      - name: LEC 18
+        type: lecture
+        title: Conditional Probability
+        blank: resources/lectures/lec18/lec18-blank.pdf
+        filled: resources/lectures/lec18/lec18-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/19
 ---
