@@ -6,7 +6,7 @@ days:
     events:
       - name: LEC 19
         type: lecture
-        title: Gradient descent
+        title: Sampling
         blank: resources/lectures/lec19/lec19-blank.pdf
         filled: resources/lectures/lec19/lec19-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/19
