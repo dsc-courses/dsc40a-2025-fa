@@ -104,12 +104,12 @@ By combining these three elements using Bayes' theorem, we can update our belief
 **Permutations:**
 - Order matters The arrangement of items is important.
 - Example Choosing a president, vice president, and treasurer from a group of 10 people. The order in which they are chosen matters.
-- Formula: P(n,k) = n! / (n-k)!
+- Formula: $$ P(n,k) = \frac{n!} {(n-k)!} $$
 
 **Combinations:**
 - Order doesn't matter The arrangement of items doesn't matter.
 - Example: Choosing 3 people from a group of 10 to form a committee. The order in which they are chosen doesn't matter.
-- Formula: C(n,k) = n! / (k! * (n-k)!)
+- Formula: $$ C(n,k) = \frac{n!} {k!  (n-k)!}$$
 
 #### How to decide when to use permutations and when to use combinations?
 
