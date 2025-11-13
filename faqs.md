@@ -99,13 +99,7 @@ By combining these three elements using Bayes' theorem, we can update our belief
 ## Week 7 - Combinatorics 
 
 ### Permutations vs. Combinations
-=======
 
-By combining these three elements using Bayes' theorem, we can update our beliefs in light of new evidence.
-
-## Week 7 - Combinatorics 
-
-### Permutations vs. Combinations**
 
 **Permutations:**
 - Order matters The arrangement of items is important.
@@ -137,7 +131,6 @@ Let's say you have 5 books and you want to choose 3 of them to read.
 #### Lecture(s) to Review:
 
 - [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
-- [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
 
 
 ### Why do we need to divide by the number of orderings when going from permutations to combinations?
@@ -167,13 +160,11 @@ Combinations = Permutations / k!
 
 This division removes the impact of order, leaving us with the number of unique groups or combinations.
 
-<<<<<<< Updated upstream
 #### Lecture(s) to Review:
 
 - [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
 
-=======
->>>>>>> Stashed changes
+
 ### What is the difference between Sequences and Permutations?
 
 Permutations are a specific form of Sequences in which we sample without replacement. 
@@ -188,7 +179,6 @@ Example:
 #### Lecture(s) to Review:
 
 - [Lecture 20](https://dsc40a.com/resources/lectures/lec20/lec20-filled.pdf)
-- [Lecture 21](https://dsc40a.com/resources/lectures/lec21/lec21-filled.pdf) 
 
 ---
 
