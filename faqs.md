@@ -14,9 +14,9 @@ Moving forward, we're going to **try** and update this page each week to provide
 Jump to:
 
 <!-- 
-- [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
+- [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)-->
 - [Week 7: Combinatorics](#week-7---combinatorics)
-- [Week 5: Gradient descent](#week-5-gradient-decent)-->
+- [Week 5: Gradient descent](#week-5-gradient-decent)
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
 - [Week 3: Linear Algebra](#week-3-linear-algebra) 
 - [Week 2: Loss Functions, and Simple Linear Regression](#week-1-2-loss-functions-and-simple-linear-regression)
@@ -93,6 +93,8 @@ By combining these three elements using Bayes' theorem, we can update our belief
 - [Lecture 24](https://dsc40a.com/resources/lectures/lec24/lec24-filled.pdf)
 
 ---
+
+-->
 
 ## Week 7 - Combinatorics 
 
@@ -242,7 +244,7 @@ $$ f(a)(1-t)+f(b)t \geq  f(a(1-t)+bt) $$
 - [Lecture 16](https://dsc40a.com/resources/lectures/lec16/lec16-filled.pdf)
 
 ---
--->
+
 
 ## Week 4: Multiple linear regression
 
