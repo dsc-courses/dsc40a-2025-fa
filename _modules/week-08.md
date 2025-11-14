@@ -25,6 +25,12 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/20
   - date: "2025-11-14"
     events:
+      - name: LEC 21
+        type: lecture
+        title: Combinatorics
+        blank: resources/lectures/lec21/lec21-blank.pdf
+        filled: resources/lectures/lec21/lec21-filled.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/21
       - name: HW 5 due
         type: hw
         title: <b>Homework 5</b>
