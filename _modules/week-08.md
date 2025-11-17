@@ -15,6 +15,10 @@ days:
         title: Groupwork 6
         problems: resources/groupworks/gw06.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 6
+        type: disc
+        title: Groupwork 6 Solutions
+        problems: resources/groupworks/gw06_soln.pdf
   - date: "2025-11-12"
     events:
       - name: LEC 20
@@ -36,4 +40,5 @@ days:
         title: <b>Homework 5</b>
         problems: resources/homeworks/homework5.pdf
 ---
+
 
