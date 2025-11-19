@@ -20,7 +20,7 @@ days:
       - name: LEC 23
         type: lecture
         title: Independence and conditional independence
-        blank: resources/lectures/lec22/lec23-blank.pdf
+        blank: resources/lectures/lec23/lec23-blank.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/22
   - date: "2025-11-21"
     events:
@@ -29,5 +29,6 @@ days:
         title: <b>Homework 6</b>
         problems: resources/homeworks/homework6.pdf
 ---
+
 
 
