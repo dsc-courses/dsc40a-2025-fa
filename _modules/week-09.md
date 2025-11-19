@@ -15,6 +15,13 @@ days:
         title: Groupwork 7
         problems: resources/groupworks/gw07.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+  - date: "2025-11-19"
+    events:
+      - name: LEC 23
+        type: lecture
+        title: Independence and conditional independence
+        blank: resources/lectures/lec22/lec23-blank.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/22
   - date: "2025-11-21"
     events:
       - name: HW 6 due
@@ -22,4 +29,5 @@ days:
         title: <b>Homework 6</b>
         problems: resources/homeworks/homework6.pdf
 ---
+
 
