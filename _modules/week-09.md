@@ -25,7 +25,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/22
   - date: "2025-11-21"
     events:
-      - name: LEC 23
+      - name: LEC 24
         type: lecture
         title: Bayes theorem and the Monty Hall problem
         blank: resources/lectures/lec24/lec24-blank.pdf
