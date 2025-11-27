@@ -49,14 +49,12 @@ Let's break down the components:
 
 **Why not divide by the prior, $$P(A)$$?**
 
-The prior probability, $$P(A)$$, represents our initial belief about the likelihood of event A. While it's important to consider our prior knowledge, it's not sufficient for calculating the posterior probability. We need to account for the new evidence, B, which is captured by the likelihood, $$P(B|A)$$.
+The prior probability, $$P(A)$$, represents our initial belief about the likelihood of event A. While it's important to consider our prior knowledge, it's not sufficient for calculating the posterior probability. We need to account for the new evidence, B, which is captured by the likelihood, $$P(B\vert A)$$.
 
 **Why divide by the marginal, $$P(B)$$?**
 
-The marginal probability, $$P(B)$$, acts as a normalization factor. It ensures that the posterior probability, $$P(A|B)$$, is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by $$P(B)$$, we're adjusting the likelihood and prior to account for the overall probability of observing B.
-```
-P(A|B) = P(B|A) * P(A) / P(B)
-```
+The marginal probability, $$P(B)$$, acts as a normalization factor. It ensures that the posterior probability, $$P(A\vert B)$$, is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by $$P(B)$$, we're adjusting the likelihood and prior to account for the overall probability of observing B.
+
 
 In summary:
 
