@@ -13,8 +13,7 @@ Moving forward, we're going to **try** and update this page each week to provide
 
 Jump to:
 
-<!-- 
-- [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)-->
+- [Week 9: Bayes' theorem and Naive Bayes Classifier](#week-9-bayes-theorem-and-naive-bayes-classifier)
 - [Week 7: Combinatorics](#week-7---combinatorics)
 - [Week 5: Gradient descent](#week-5-gradient-decent)
 - [Week 4: Multiple linear regression](#week4-multiple-linear-regression)
@@ -23,21 +22,17 @@ Jump to:
 
 --- 
 
-<!--
 ## Week 9: Bayes' Theorem and Naive Bayes Classifier
 
 ### Why can we disregard the denominator in the Naive Bayes classifier?
 
 In Naive Bayes, we want to compare the probability of a data point with given features belonging to different classes. The denominator, P(features), is the same for all classes and acts as a normalization factor. Since we're only comparing relative probabilities, we can safely ignore this denominator without affecting the classification outcome.
 
-<<<<<<< Updated upstream
 Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator P(features $$\vert$$ class) * P(class) is the most likely class for the given data point.
 
 #### Lecture(s) to Review:
 
 - [Lecture 25](https://dsc40a.com/resources/lectures/lec25/lec25-filled.pdf)
-=======
-Think of it like comparing fractions with the same denominator. The one with the larger numerator is the bigger fraction, even if we don't know the exact denominator value. Similarly, in Naive Bayes, the class with the highest numerator (P(features|class) * P(class)) is the most likely class for the given data point.
 
 ### Why do we divide by the marginal probability and not the prior probability in Bayes' Theorem?
 
@@ -63,27 +58,11 @@ The marginal probability, $$P(B)$$, acts as a normalization factor. It ensures t
 P(A|B) = P(B|A) * P(A) / P(B)
 ```
 
-Let's break down the components:
-
-- **P(A|B)**: Posterior probability - the probability of event A occurring given that event B has occurred.
-- **P(B|A)**: Likelihood - the probability of observing event B given that event A is true.
-- **P(A)**: Prior probability - the probability of event A occurring before observing any new evidence.
-- **P(B)**: Marginal probability (also called the evidence) - the probability of observing event B, regardless of whether A is true or false.
-
-**Why not divide by the prior, P(A)?**
-
-The prior probability, P(A), represents our initial belief about the likelihood of event A. While it's important to consider our prior knowledge, it's not sufficient for calculating the posterior probability. We need to account for the new evidence, B, which is captured by the likelihood, P(B|A).
-
-**Why divide by the marginal, P(B)?**
-
-The marginal probability, P(B), acts as a normalization factor. It ensures that the posterior probability, P(A|B), is a valid probability, meaning it sums to 1 across all possible values of A. By dividing by P(B), we're adjusting the likelihood and prior to account for the overall probability of observing B.
-
 In summary:
 
 - The prior tells us our initial belief.
 - The likelihood tells us how likely the evidence is given our belief.
 - The marginal tells us how likely the evidence is overall.
-<<<<<<< Updated upstream
 - The posterior tells us how the belief has been updated given the evidence.
 
 By combining these three elements using Bayes' theorem, we can update our beliefs in light of new evidence.
@@ -94,7 +73,6 @@ By combining these three elements using Bayes' theorem, we can update our belief
 
 ---
 
--->
 
 ## Week 7 - Combinatorics 
 
