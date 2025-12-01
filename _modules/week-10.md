@@ -10,6 +10,15 @@ days:
         blank: resources/lectures/lec25/lec25-blank.pdf
         filled: resources/lectures/lec25/lec25-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/25
+      - name: DISC 8
+        type: disc
+        title: Groupwork 8
+        problems: resources/groupworks/gw08.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 8
+        type: disc
+        title: Groupwork 8 Solutions
+        problems: resources/groupworks/gw08_soln.pdf
   - date: "2025-11-26"
     events:
       - name: LEC 26
@@ -17,10 +26,6 @@ days:
         title: Naive Bayes Classifier for text classification
         filled: resources/lectures/lec26/lec26-filled.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/26
-      - name: DISC 8
-        type: disc
-        title: Groupwork 8
-        problems: resources/groupworks/gw08.pdf
-        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
 ---
+
 
