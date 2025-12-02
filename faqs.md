@@ -94,10 +94,11 @@ If you reorder the same people/cards/objects, does that count as a different out
 **Step 3:** Choose the appropriate counting model
 Let n = number of possible choices each time, k = number of selections.
 Based on Steps 1 and 2:
+
 (1) Sequence + with replacement:
    Each of the k positions has n possible choices.
    Model: n^k
-   
+
 (2) Sequence + without replacement:
    No repetition, order matters.
    Model (permutation): P(n, k)
