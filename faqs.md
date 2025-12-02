@@ -74,8 +74,8 @@ By combining these three elements using Bayes' theorem, we can update our belief
 
 ## Week 7 - Combinatorics 
 
-### Permutations vs. Combinations
-
+### Framework for Using Permutations and Combinations in Probability Problems
+**What are Permutations and Combinations**
 
 **Permutations:**
 - Order matters The arrangement of items is important.
@@ -103,6 +103,44 @@ Let's say you have 5 books and you want to choose 3 of them to read.
 **Remember:**
 - Permutations overcount combinations.
 - If you're unsure, consider a smaller example and list out all the possibilities.
+
+**Step-by-step framework for setting up counting / probability problems**
+
+step1: Decide whether the outcome is a set or a sequence
+If you reorder the same people/cards/objects, does that count as a different outcome?
+- If reordering does not create a new outcome → treat it as a set (order does not matter).
+  Example: choosing 5 students to form a committee.
+- If reordering does create a new outcome → treat it as a sequence (order does matter).
+  Example: choosing 5 students to stand in a line (1st, 2nd, 3rd, …).
+
+Step 2: Decide if it is with replacement or without replacement
+- With replacement:
+  After an element is selected, it is put back and can be selected again.
+  Each selection is independent, and the probabilities stay the same each time.
+- Without replacement:
+  After an element is selected, it is not put back and cannot be selected again.
+  Selections are not independent, and the probabilities change after each draw.
+
+Step 3: Choose the appropriate counting model
+Let n = number of possible choices each time, k = number of selections.
+Based on Steps 1 and 2:
+1. Sequence + with replacement:
+   Each of the k positions has n possible choices.
+   Model: n^k
+2. Sequence + without replacement:
+   No repetition, order matters.
+   Model (permutation): P(n, k)
+3. Set + without replacement:
+   No repetition, order does not matter.
+   Model (combination): C(n, k)
+
+Step 4: Use the model to compute the probability
+1. Use the chosen model to count the total number of possible outcomes.
+2. Use the same model to count the number of favorable outcomes.
+3. Then write:
+   P(event) = (number of favorable outcomes) / (number of all possible outcomes).
+
+
 
 #### Lecture(s) to Review:
 
