@@ -18,7 +18,7 @@ days:
       - name: DISC 9 Solutions
         type: disc
         title: Groupwork 9 Solutions
-        problems: resources/groupworks/gw19_soln.pdf
+        problems: resources/groupworks/gw10_soln.pdf
   - date: "2025-12-03"
     events:
       - name: LEC 28
@@ -32,5 +32,6 @@ days:
         title: <b>Homework 7 - NO SLIP DAY</b>
         problems: resources/homeworks/homework7.pdf
 ---
+
 
 
