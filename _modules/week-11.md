@@ -17,7 +17,7 @@ days:
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
       - name: DISC 9 Solutions
         type: disc
-        title: Groupwork 9 Solutions
+        title: Groupwork 9
         problems: resources/groupworks/gw10_soln.pdf
   - date: "2025-12-03"
     events:
@@ -32,6 +32,7 @@ days:
         title: <b>Homework 7 - NO SLIP DAY</b>
         problems: resources/homeworks/homework7.pdf
 ---
+
 
 
 
