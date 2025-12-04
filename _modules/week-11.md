@@ -15,6 +15,10 @@ days:
         title: Groupwork 9
         problems: resources/groupworks/gw10.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a01
+      - name: DISC 9 Solutions
+        type: disc
+        title: Groupwork 9 Solutions
+        problems: resources/groupworks/gw19_soln.pdf
   - date: "2025-12-03"
     events:
       - name: LEC 28
@@ -28,4 +32,5 @@ days:
         title: <b>Homework 7 - NO SLIP DAY</b>
         problems: resources/homeworks/homework7.pdf
 ---
+
 
