@@ -31,6 +31,14 @@ days:
         type: hw
         title: <b>Homework 7 - NO SLIP DAY</b>
         problems: resources/homeworks/homework7.pdf
+  - date: "2025-12-05"
+    events:
+      - name: LEC 29
+        type: lecture
+        title: Review
+        blank: resources/lectures/lec29/mock_final/.pdf
+        filled: resources/lectures/lec29/mock_final_solutions.pdf
+        podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/29
 ---
 
 
