@@ -36,8 +36,8 @@ days:
       - name: LEC 29
         type: lecture
         title: Review
-        blank: resources/lectures/lec29/mock_final/.pdf
-        filled: resources/lectures/lec29/mock_final_solutions.pdf
+        blank: resources/lectures/lec29/mock-final/.pdf
+        filled: resources/lectures/lec29/mock-final-solutions.pdf
         podcast: https://podcast.ucsd.edu/watch/fa25/dsc40a_a00/29
 ---
 
